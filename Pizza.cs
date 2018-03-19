@@ -10,7 +10,6 @@ namespace Microsoft.Bot.Sample.PizzaBot
     {
         // 0 value in enums is reserved for unknown values.  Either you can supply an explicit one or start enumeration at 1.
         Unknown,
-        Personal,
         [Terms(new string[] { "med", "medium" })]
         Medium,
         Large,
